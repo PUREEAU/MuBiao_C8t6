@@ -5,7 +5,7 @@
 
 
 #include "stm32f1xx_hal.h"
-#include "tim.h"
+
 extern  __IO u32 sysTickCnt;
 
 // 系统定时器初始化

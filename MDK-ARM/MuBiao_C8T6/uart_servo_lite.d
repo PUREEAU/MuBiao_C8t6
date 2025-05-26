@@ -19,8 +19,6 @@ mubiao_c8t6/uart_servo_lite.o: ..\HoJo\uart_servo_lite.c \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h \
-  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
-  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  ..\HoJo\sys_tick.h ..\Core\Inc\tim.h ..\Core\Inc\main.h \
-  ..\HoJo\ring_buffer.h ..\Core\Inc\usart.h
+  ..\HoJo\sys_tick.h ..\HoJo\ring_buffer.h ..\Core\Inc\usart.h \
+  ..\Core\Inc\main.h

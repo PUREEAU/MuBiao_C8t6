@@ -18,9 +18,7 @@ mubiao_c8t6/work.o: ..\hardware\Work.c ..\hardware\Work.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h \
-  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h \
-  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h \
-  ..\HoJo\sys_tick.h ..\Core\Inc\tim.h ..\Core\Inc\main.h \
-  ..\HoJo\uart_servo_lite.h ..\HoJo\ring_buffer.h ..\Core\Inc\usart.h \
-  ..\OLED\OLED.h ..\OLED\OLED_Data.h ..\hardware\Key.h
+  ..\HoJo\sys_tick.h ..\HoJo\uart_servo_lite.h ..\HoJo\ring_buffer.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\main.h ..\OLED\OLED.h \
+  ..\OLED\OLED_Data.h ..\hardware\Key.h

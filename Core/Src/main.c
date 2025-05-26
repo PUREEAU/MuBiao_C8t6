@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -103,7 +102,6 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
-  MX_TIM2_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
     SysTick_Init();
@@ -114,7 +112,6 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  HAL_TIM_Base_Start_IT(&htim2);
   HAL_UART_Receive_IT(&huart1,&ucTemp1, sizeof(ucTemp1));
   HAL_UART_Receive_IT(&huart3,&Rx_1_Data,1);
   
@@ -241,11 +238,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 }
 
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-    if(htim->Instance == TIM2){
-    
-    }
-}
 
 /* USER CODE END 4 */
 
